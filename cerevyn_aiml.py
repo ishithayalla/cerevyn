@@ -95,3 +95,27 @@ if best_model == rf:
 
     print("\nFeature Importance:")
     print(imp_df)
+
+Output:
+
+Linear Regression Results
+MAE: 33316.94246756271
+RMSE: 132464.16613019977
+R2 Score: 0.0028701322192357104
+
+Random Forest Results
+MAE: 1104.6074460344867
+RMSE: 3800.069630134974
+R2 Score: 0.9991793877151327
+
+Sample Predicted Yield: 11410.268749999963
+Actual Yield: 10939.18
+
+Feature Importance:
+   Feature  Importance
+1     Area    0.941633
+4     Year    0.058367
+0   Domain    0.000000
+2  Element    0.000000
+3     Item    0.000000
+5     Unit    0.000000
